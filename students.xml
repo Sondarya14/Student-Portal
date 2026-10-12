@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+    <student>
+        <id>101</id>
+        <name>Rahul Sharma</name>
+        <username>rahul</username>
+        <password>rahul123</password>
+        <course>BCA</course>
+        <semester>4</semester>
+        <marks>92</marks>
+    </student>
+
+    <student>
+        <id>102</id>
+        <name>Priya Singh</name>
+        <username>priya</username>
+        <password>priya123</password>
+        <course>BCA</course>
+        <semester>4</semester>
+        <marks>96</marks>
+    </student>
+
+    <student>
+        <id>103</id>
+        <name>Aman Verma</name>
+        <username>aman</username>
+        <password>aman123</password>
+        <course>BSc IT</course>
+        <semester>3</semester>
+        <marks>85</marks>
+    </student>
+
+    <student>
+        <id>104</id>
+        <name>Neha Gupta</name>
+        <username>neha</username>
+        <password>neha123</password>
+        <course>BCA</course>
+        <semester>5</semester>
+        <marks>89</marks>
+    </student>
+
+    <student>
+        <id>105</id>
+        <name>Arjun Patel</name>
+        <username>arjun</username>
+        <password>arjun123</password>
+        <course>BSc IT</course>
+        <semester>3</semester>
+        <marks>78</marks>
+    </student>
+
+    <student>
+        <id>106</id>
+        <name>Sneha Kumari</name>
+        <username>sneha</username>
+        <password>sneha123</password>
+        <course>BCA</course>
+        <semester>4</semester>
+        <marks>94</marks>
+    </student>
+</students>

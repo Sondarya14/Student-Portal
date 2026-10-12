@@ -1,0 +1,204 @@
+/* Basic settings for every element */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    color: #1e293b;
+}
+
+/* Login card */
+.login-container {
+    width: 90%;
+    max-width: 420px;
+    margin: 80px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings and labels */
+h1, h2, h3 {
+    color: #173654;
+}
+
+.login-container h1 {
+    text-align: center;
+}
+
+.login-container > p {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+/* Input fields */
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+/* Buttons */
+button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    background-color: #1d4ed8;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 12px;
+}
+
+button:hover {
+    background-color: #1e40af;
+}
+
+.login-container button {
+    width: 100%;
+}
+
+/* Messages */
+#message {
+    color: #b91c1c;
+    font-weight: bold;
+}
+
+.demo-hint {
+    color: #64748b;
+    font-size: 13px;
+}
+
+/* Dashboard layout */
+.portal-container {
+    width: 92%;
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+.portal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #173654;
+    color: white;
+    border-radius: 10px;
+}
+
+.portal-header h1 {
+    color: white;
+}
+
+.dashboard-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin: 20px 0;
+}
+
+.card {
+    flex: 1 1 180px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #e2e8f0;
+    text-align: left;
+}
+
+th {
+    background-color: #173654;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f1f5f9;
+}
+
+.top-student {
+    border: 2px solid #eab308;
+    background-color: #fef9c3;
+    color: #713f12;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Dark mode */
+body.dark-mode {
+    background-color: #0f172a;
+    color: #e2e8f0;
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3 {
+    color: #bfdbfe;
+}
+
+body.dark-mode .card,
+body.dark-mode .section {
+    background-color: #1e293b;
+    color: #e2e8f0;
+}
+
+body.dark-mode th {
+    background-color: #334155;
+}
+
+body.dark-mode tbody tr:nth-child(even) {
+    background-color: #334155;
+}
+
+body.dark-mode td {
+    border-color: #475569;
+}
+
+body.dark-mode .top-student {
+    background-color: #713f12;
+    color: #fef3c7;
+}
+
+button:focus-visible,
+input:focus-visible {
+    outline: 3px solid #93c5fd;
+    outline-offset: 2px;
+}

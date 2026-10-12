@@ -1,0 +1,84 @@
+HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="portal.js" defer></script>
+</head>
+<body>
+    <main class="portal-container">
+
+        <header class="portal-header">
+            <div>
+                <h1>Student Portal</h1>
+                <p id="welcomeMessage">Welcome to your dashboard!</p>
+            </div>
+
+            <div>
+                <button id="themeButton" type="button">
+                    Toggle Dark Mode
+                </button>
+
+                <button id="logoutButton" type="button">
+                    Logout
+                </button>
+            </div>
+        </header>
+
+        <section class="dashboard-cards">
+            <article class="card">
+                <h3>Total Students</h3>
+                <p id="totalStudents">Loading...</p>
+            </article>
+
+            <article class="card">
+                <h3>Average Marks</h3>
+                <p id="averageMarks">Loading...</p>
+            </article>
+
+            <article class="card">
+                <h3>Top Student</h3>
+                <p id="topStudent">Loading...</p>
+            </article>
+        </section>
+
+        <section class="section">
+            <h2 id="sectionHeading">Student Records</h2>
+
+            <p id="portalMessage" role="status" aria-live="polite">
+                Loading student information...
+            </p>
+
+            <button id="toggleTableButton" type="button">
+                Hide Student Table
+            </button>
+
+            <button id="changeHeadingButton" type="button">
+                Change Heading
+            </button>
+
+            <div id="tableContainer">
+                <table id="studentTable">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Course</th>
+                            <th>Semester</th>
+                            <th>Marks</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="studentTableBody">
+                        <!-- JavaScript creates all student rows here. -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>
